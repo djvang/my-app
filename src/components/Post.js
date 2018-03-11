@@ -10,7 +10,7 @@ export default function Post({post}) {
             <p>{post.body}</p>
         </div>
         <div className="uk-card-footer">
-            <a href="#" className="uk-button uk-button-text">Read more</a>
+            <a href="" className="uk-button uk-button-text">Read more</a>
         </div>
     </div>
   )

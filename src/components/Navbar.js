@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 
 export default function Navbar() {
   return (
-    <nav className="uk-navbar-container uk-margin" uk-navbar>
+    <nav className="uk-navbar-container uk-margin">
         <div className="uk-navbar-left">
 
             <Link className="uk-navbar-item uk-logo" to="/">Logo</Link>
