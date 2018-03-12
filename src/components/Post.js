@@ -1,4 +1,5 @@
 import React from 'react'
+import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 
 export default function Post({post}) {
   return (
@@ -10,7 +11,7 @@ export default function Post({post}) {
             <p>{post.body}</p>
         </div>
         <div className="uk-card-footer">
-            <a href="#" className="uk-button uk-button-text">Read more</a>
+            <Link to={`/posts/${post.id}`} className="uk-button uk-button-text">Read more</Link>
         </div>
     </div>
   )
